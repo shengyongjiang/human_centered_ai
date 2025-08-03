@@ -1,6 +1,32 @@
 # Development Notes
 
+## How to Add more scenarios
+
+Scenarios in OpenMATB define the timing and sequence of events during a study session. They are text files located in `OpenMATB/includes/scenarios/` that use a specific format to control task behavior.
+
+### Creating a New Scenario
+
+1. **Create scenario file**: Add a new `.txt` file in `OpenMATB/includes/scenarios/`
+
+2. **Define the scenario**: Use the format above to schedule events
+
+3. **Configure OpenMATB**: Edit `OpenMATB/config.ini` to use your scenario:
+
+   ```ini
+   scenario_path=your_scenario_name.txt
+   ```
+
+## How to check the anticipate key press log
+
+All logs file save at `OpenMATB/sessions/` folder, ex:
+OpenMATB/sessions/2025-01-15/1_250115_143022.csv
+
 ## Session Analysis Tool
+
+- Analyzes OpenMATB session CSV files to evaluate user performance
+- Maps system monitoring failures to expected key responses
+- Tracks user key presses and matches them to failures
+- Provides detailed performance metrics
 
 ### Usage
 
@@ -10,15 +36,9 @@ python analyze_session.py <session_file.csv>
 ## Example:
 python analyze_session.py OpenMATB/sessions/2025-08-03/1_250803_155525.csv
 
-# or use `grep -E "input,keyboard" "./sessions/date/session.csv"` to get user input
+# or to get user keypress by directly 
+# grep -E "input,keyboard" "./sessions/date/session.csv"
 ```
-
-### What it does
-
-- Analyzes OpenMATB session CSV files to evaluate user performance
-- Maps system monitoring failures to expected key responses
-- Tracks user key presses and matches them to failures
-- Provides detailed performance metrics
 
 ### Key Mapping
 
