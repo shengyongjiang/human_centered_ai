@@ -1,0 +1,26 @@
+# High Frequency Study Scenario
+# Only sysmon task for 10 minutes with failures every 30-45 seconds
+# External alert system will handle alerts
+
+# Initialize sysmon only
+0:00:00;sysmon;start
+
+# Sysmon failures requiring user input (F1-F6)
+0:00:30;sysmon;scales-1-failure;True
+0:01:15;sysmon;lights-2-failure;True
+0:01:45;sysmon;scales-3-failure;True
+0:02:30;sysmon;lights-1-failure;True
+0:03:00;sysmon;scales-2-failure;True
+0:03:45;sysmon;lights-2-failure;True
+0:04:15;sysmon;scales-1-failure;True
+0:05:00;sysmon;lights-1-failure;True
+0:05:30;sysmon;scales-3-failure;True
+0:06:15;sysmon;lights-2-failure;True
+0:06:45;sysmon;scales-1-failure;True
+0:07:30;sysmon;lights-1-failure;True
+0:08:00;sysmon;scales-2-failure;True
+0:08:45;sysmon;lights-2-failure;True
+0:09:15;sysmon;scales-3-failure;True
+
+# End scenario
+0:10:00;sysmon;stop

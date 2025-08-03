@@ -1,0 +1,22 @@
+# TestCase1 Low Frequency Study Scenario
+# Only sysmon task for 4 minutes with failures every 20 seconds
+# External alert system will handle alerts
+
+# Initialize sysmon only
+0:00:00;sysmon;start
+
+# Sysmon failures requiring user input (F1-F6) - every 20 seconds
+0:00:20;sysmon;scales-1-failure;True
+0:00:40;sysmon;lights-2-failure;True
+0:01:00;sysmon;scales-3-failure;True
+0:01:20;sysmon;lights-1-failure;True
+0:01:40;sysmon;scales-2-failure;True
+0:02:00;sysmon;lights-2-failure;True
+0:02:20;sysmon;scales-1-failure;True
+0:02:40;sysmon;lights-1-failure;True
+0:03:00;sysmon;scales-3-failure;True
+0:03:20;sysmon;lights-2-failure;True
+0:03:40;sysmon;scales-2-failure;True
+
+# End scenario
+0:04:00;sysmon;stop
