@@ -16,6 +16,13 @@ Scenarios in OpenMATB define the timing and sequence of events during a study se
    scenario_path=your_scenario_name.txt
    ```
 
+## How to launch a new task test
+
+   - In one terminal, go to folder of OpenMATB and run `python main.py`, **WAIT at the screen** of 'press space to start, switch to another terminal
+   - In another terminal,  go to folder of `auto_alert` and run `python auto_alert.py`
+   - START task
+
+
 ## How to check the anticipate key press log
 
 All logs file save at `OpenMATB/sessions/` folder, ex:
