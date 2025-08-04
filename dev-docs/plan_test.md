@@ -21,8 +21,6 @@
 - **Implementation**: Basic system monitoring with popup recommendations
 
 
-## Plan Test Cases
-
 ### TestCase2: Alert Frequency vs Automation Bias
 
 - **Status**: Scenarios created
@@ -31,7 +29,8 @@
   - `testcase2_low_freq_study.txt` - Low frequency alerts (20s intervals), 8 minutes total
 - **Purpose**: Compare automation bias rates between different alert frequencies
 - **Implementation**: Basic system monitoring with popup recommendations
-- 
+
+## Plan Test Cases
 ### TestCase3: Automation Reliability Levels
 - **Purpose**: Test how reliability affects trust and bias
 - **Conditions**: 95% vs 70% vs 50% accuracy rates
