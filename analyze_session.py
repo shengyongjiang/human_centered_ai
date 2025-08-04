@@ -6,6 +6,8 @@ import csv
 import sys
 from datetime import datetime
 
+RESPONSE_WINDOW_SECONDS = 10
+
 def analyze_session(csv_file):
     failures = []
     keypresses = []
@@ -68,7 +70,7 @@ def analyze_session(csv_file):
     print(f"Total key presses: {len(keypresses)}")
     print()
     
-    # Match key presses to failures (within 10 second window)
+    # Match key presses to failures (within RESPONSE_WINDOW_SECONDS(ex:10) second window)
     correct_responses = 0
     incorrect_responses = 0
     missed_failures = 0
@@ -80,11 +82,11 @@ def analyze_session(csv_file):
         failure_time = failure['timestamp']
         expected_key = failure['expected_key']
         
-        # Find key presses within 10 seconds after this failure
+        # Find key presses within RESPONSE_WINDOW_SECONDS(ex:10) seconds after this failure
         response_found = False
         for keypress in keypresses:
             if (keypress['timestamp'] > failure_time and 
-                keypress['timestamp'] <= failure_time + 10):
+                keypress['timestamp'] <= failure_time + RESPONSE_WINDOW_SECONDS):
                 
                 if keypress['key'] == expected_key:
                     print(f"Failure {i+1:2d}: {failure['gauge']:20s} -> Expected {expected_key}, Got {keypress['key']} ✓ CORRECT")
@@ -110,7 +112,7 @@ def analyze_session(csv_file):
         was_response = False
         for failure in failures:
             if (key_time > failure['timestamp'] and 
-                key_time <= failure['timestamp'] + 10):
+                key_time <= failure['timestamp'] + RESPONSE_WINDOW_SECONDS):
                 was_response = True
                 break
         
