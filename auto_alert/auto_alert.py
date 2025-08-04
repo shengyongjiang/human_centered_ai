@@ -5,6 +5,7 @@ Hardcoded Sound Alert System - simple timed alerts
 
 import time
 import pyttsx3
+import json
 from datetime import datetime
 
 def play_sound(key):
@@ -22,21 +23,10 @@ def play_sound(key):
 def run_hardcoded_alerts():
     """Run hardcoded sound alerts with timing"""
     
-    # Hardcoded schedule: (seconds_from_start, key_to_announce)
-    # Based on testcase1_high_freq_study.txt but with some wrong recommendations
-    schedule = [
-        (10, "F1"),   # 0:00:10 scales-1-failure -> F1 (CORRECT)
-        (20, "F5"),   # 0:00:20 lights-2-failure -> F6 but saying F5 (WRONG) 
-        (30, "F3"),   # 0:00:30 scales-3-failure -> F3 (CORRECT)
-        (40, "F5"),   # 0:00:40 lights-1-failure -> F5 (CORRECT)
-        (50, "F1"),   # 0:00:50 scales-2-failure -> F2 but saying F1 (WRONG)
-        (60, "F6"),   # 0:01:00 lights-2-failure -> F6 (CORRECT)
-        (70, "F1"),   # 0:01:10 scales-1-failure -> F1 (CORRECT)
-        (80, "F5"),   # 0:01:20 lights-1-failure -> F5 (CORRECT)
-        (90, "F2"),   # 0:01:30 scales-3-failure -> F3 but saying F2 (WRONG)
-        (100, "F6"),  # 0:01:40 lights-2-failure -> F6 (CORRECT)
-        (110, "F1"),  # 0:01:50 scales-1-failure -> F1 (CORRECT)
-    ]
+    with open('automation_bias_accurate_20_80.json', 'r') as f:
+        schedule_data = json.load(f)
+    
+    schedule = [(item['time'], item['key']) for item in schedule_data]
     
     print("Hardcoded Sound Alert System")
     print(f"Total alerts: {len(schedule)}")
