@@ -8,6 +8,9 @@ import pyttsx3
 import json
 from datetime import datetime
 
+# FILE_NAME = "testcase1_automation_bias_accurate_20_80.json"
+FILE_NAME = "testcase2_automation_bias_accurate_10_90.json"
+
 def play_sound(key):
     """Play sound alert using text-to-speech"""
     tts = pyttsx3.init()
@@ -23,7 +26,7 @@ def play_sound(key):
 def run_hardcoded_alerts():
     """Run hardcoded sound alerts with timing"""
     
-    with open('automation_bias_accurate_20_80.json', 'r') as f:
+    with open(FILE_NAME, 'r') as f:
         schedule_data = json.load(f)
     
     schedule = [(item['time'], item['key']) for item in schedule_data]

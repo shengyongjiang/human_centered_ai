@@ -1,0 +1,237 @@
+[
+    {
+        "time": 10,
+        "key": "F1",
+        "comment": "0:00:10 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 20,
+        "key": "F6",
+        "comment": "0:00:20 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 30,
+        "key": "F3",
+        "comment": "0:00:30 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 40,
+        "key": "F5",
+        "comment": "0:00:40 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 50,
+        "key": "F2",
+        "comment": "0:00:50 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 60,
+        "key": "F6",
+        "comment": "0:01:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 70,
+        "key": "F4",
+        "comment": "0:01:10 scales-4-failure -> F4 (CORRECT)"
+    },
+    {
+        "time": 80,
+        "key": "F5",
+        "comment": "0:01:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 90,
+        "key": "F3",
+        "comment": "0:01:30 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 100,
+        "key": "F6",
+        "comment": "0:01:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 110,
+        "key": "F1",
+        "comment": "0:01:50 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 120,
+        "key": "F5",
+        "comment": "0:02:00 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 130,
+        "key": "F2",
+        "comment": "0:02:10 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 140,
+        "key": "F6",
+        "comment": "0:02:20 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 150,
+        "key": "F4",
+        "comment": "0:02:30 scales-4-failure -> F4 (CORRECT)"
+    },
+    {
+        "time": 160,
+        "key": "F5",
+        "comment": "0:02:40 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 170,
+        "key": "F3",
+        "comment": "0:02:50 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 180,
+        "key": "F6",
+        "comment": "0:03:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 190,
+        "key": "F1",
+        "comment": "0:03:10 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 200,
+        "key": "F5",
+        "comment": "0:03:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 210,
+        "key": "F2",
+        "comment": "0:03:30 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 220,
+        "key": "F6",
+        "comment": "0:03:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 230,
+        "key": "F4",
+        "comment": "0:03:50 scales-4-failure -> F4 (CORRECT)"
+    },
+    {
+        "time": 240,
+        "key": "F5",
+        "comment": "0:04:00 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 250,
+        "key": "F3",
+        "comment": "0:04:10 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 260,
+        "key": "F6",
+        "comment": "0:04:20 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 270,
+        "key": "F1",
+        "comment": "0:04:30 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 280,
+        "key": "F5",
+        "comment": "0:04:40 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 290,
+        "key": "F2",
+        "comment": "0:04:50 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 300,
+        "key": "F6",
+        "comment": "0:05:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 310,
+        "key": "F4",
+        "comment": "0:05:10 scales-4-failure -> F4 (CORRECT)"
+    },
+    {
+        "time": 320,
+        "key": "F5",
+        "comment": "0:05:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 330,
+        "key": "F3",
+        "comment": "0:05:30 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 340,
+        "key": "F6",
+        "comment": "0:05:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 350,
+        "key": "F1",
+        "comment": "0:05:50 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 360,
+        "key": "F5",
+        "comment": "0:06:00 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 370,
+        "key": "F2",
+        "comment": "0:06:10 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 380,
+        "key": "F6",
+        "comment": "0:06:20 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 390,
+        "key": "F4",
+        "comment": "0:06:30 scales-4-failure -> F4 (CORRECT)"
+    },
+    {
+        "time": 400,
+        "key": "F5",
+        "comment": "0:06:40 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 410,
+        "key": "F3",
+        "comment": "0:06:50 scales-3-failure -> F3 (CORRECT)"
+    },
+    {
+        "time": 420,
+        "key": "F6",
+        "comment": "0:07:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 430,
+        "key": "F1",
+        "comment": "0:07:10 scales-1-failure -> F1 (CORRECT)"
+    },
+    {
+        "time": 440,
+        "key": "F5",
+        "comment": "0:07:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 450,
+        "key": "F2",
+        "comment": "0:07:30 scales-2-failure -> F2 (CORRECT)"
+    },
+    {
+        "time": 460,
+        "key": "F6",
+        "comment": "0:07:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 470,
+        "key": "F4",
+        "comment": "0:07:50 scales-4-failure -> F4 (CORRECT)"
+    }
+]
