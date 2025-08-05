@@ -7,8 +7,8 @@ Test how alert frequency affects automation bias in OpenMATB system monitoring t
 
 ### 1. Create Test Case Scenarios
 
-- **TestCase1 High Frequency**: `includes/scenarios/testcase1_high_freq_study.txt` - alerts every 10 seconds
-- **TestCase1 Low Frequency**: `includes/scenarios/testcase1_low_freq_study.txt` - alerts every 20 seconds
+- **TestCase1 High Frequency**: `includes/scenarios/testcase1.txt` - alerts every 10 seconds
+- **TestCase1 Low Frequency**: `includes/scenarios/__testcase1_low_freq_study.txt` - alerts every 20 seconds
 - Both scenarios run for 2-4 minutes with the same total number of failures
 - Additional test cases can be created following the same naming pattern 
 
@@ -16,7 +16,7 @@ Test how alert frequency affects automation bias in OpenMATB system monitoring t
 
 - Add simple sound alerts when system failures occur
 - Alert play sound: " Press F1" (or other key)
-- Alert play sound is according from `includes/scenarios/testcase1_high_freq_study.txt` ,`includes/scenarios/testcase1_low_freq_study.txt` , Hoewver, it add some wrong hit sound, ex: use should press F1 key but sound play " Press F2"
+- Alert play sound is according from `includes/scenarios/testcase1.txt` ,`includes/scenarios/__testcase1_low_freq_study.txt` , Hoewver, it add some wrong hit sound, ex: use should press F1 key but sound play " Press F2"
 - Make 80% of recommendations correct, 20% incorrect
 
 ### 3. Simple Data Collection
@@ -34,8 +34,8 @@ Test how alert frequency affects automation bias in OpenMATB system monitoring t
 ## Files to Modify
 
 1. `plugins/sysmon.py` - add alert popup system
-2. `includes/scenarios/testcase1_high_freq_study.txt` - create high frequency scenario
-3. `includes/scenarios/testcase1_low_freq_study.txt` - create low frequency scenario
+2. `includes/scenarios/testcase1.txt` - create high frequency scenario
+3. `includes/scenarios/__testcase1_low_freq_study.txt` - create low frequency scenario
 
 ## Test Case Structure
 - **TestCase1**: Basic automation bias comparison (high vs low frequency)

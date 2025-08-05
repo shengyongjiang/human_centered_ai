@@ -6,8 +6,8 @@
 
 - **Status**: Scenarios created
 - **Files**:
-  - `testcase0_high_freq_study.txt` - High frequency alerts (10s intervals), 2 minutes total
-  - `testcase0_low_freq_study.txt` - Low frequency alerts (20s intervals), 4 minutes total
+  - `testcase0.txt` - High frequency alerts (10s intervals), 2 minutes total
+  - `__testcase0_low_freq_study.txt` - Low frequency alerts (20s intervals), 4 minutes total
 - **Purpose**: Compare automation bias rates between different alert frequencies
 - **Implementation**: Basic system monitoring with popup recommendations
 
@@ -15,8 +15,8 @@
 
 - **Status**: Scenarios created
 - **Files**: 
-  - `testcase1_very_high_freq_study.txt` - High frequency alerts (10s intervals), 2 minutes total
-  - `testcase1_low_freq_study.txt` - Low frequency alerts (20s intervals), 4 minutes total
+  - `testcase1.txt` - High frequency alerts (10s intervals), 2 minutes total
+  - `__testcase1_low_freq_study.txt` - Low frequency alerts (20s intervals), 4 minutes total
 - **Purpose**: Compare automation bias rates between different alert frequencies
 - **Implementation**: Basic system monitoring with popup recommendations
 
@@ -25,8 +25,8 @@
 
 - **Status**: Scenarios created
 - **Files**: 
-  - `testcase2_very_high_freq_study.txt` - High frequency alerts (10s intervals), 8 minutes total
-  - `testcase2_low_freq_study.txt` - Low frequency alerts (20s intervals), 8 minutes total
+  - `testcase2.txt` - High frequency alerts (10s intervals), 8 minutes total
+  - `__testcase2_low_freq_study.txt` - Low frequency alerts (20s intervals), 8 minutes total
 - **Purpose**: Compare automation bias rates between different alert frequencies
 - **Implementation**: Basic system monitoring with popup recommendations
 
