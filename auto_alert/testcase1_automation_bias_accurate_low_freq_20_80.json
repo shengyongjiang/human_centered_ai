@@ -1,0 +1,62 @@
+[
+    {
+        "time": 20,
+        "key": "F5",
+        "comment": "0:00:20 lights-2-failure -> F6 but saying F5 (WRONG)"
+    },
+    {
+        "time": 40,
+        "key": "F5",
+        "comment": "0:00:40 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 60,
+        "key": "F6",
+        "comment": "0:01:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 80,
+        "key": "F5",
+        "comment": "0:01:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 100,
+        "key": "F6",
+        "comment": "0:01:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 120,
+        "key": "F5",
+        "comment": "0:02:00 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 140,
+        "key": "F6",
+        "comment": "0:02:20 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 160,
+        "key": "F1",
+        "comment": "0:02:40 lights-1-failure -> F5 but saying F1 (WRONG)"
+    },
+    {
+        "time": 180,
+        "key": "F6",
+        "comment": "0:03:00 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 200,
+        "key": "F5",
+        "comment": "0:03:20 lights-1-failure -> F5 (CORRECT)"
+    },
+    {
+        "time": 220,
+        "key": "F6",
+        "comment": "0:03:40 lights-2-failure -> F6 (CORRECT)"
+    },
+    {
+        "time": 240,
+        "key": "F5",
+        "comment": "0:04:00 lights-1-failure -> F5 (CORRECT)"
+    }
+]

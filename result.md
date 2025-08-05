@@ -14,7 +14,7 @@
 | testcase3.txt | 2025-08-05/17_250805_004440.csv| 45/47 95.7% | testcase3_automation_bias_accurate_low_freq_10_90.json | 10s | 8 minutes |
 | testcase3.txt | 2025-08-04/9_250804_211525.csv| 35/47 74.5% | testcase3_automation_bias_accurate_high_freq_10_90.json | 10s | 8 minutes |
 |---------------|--------------|------------------|-------------------|---------------------|---------------------|
-| testcase4.txt | 2025-08-05/x.csv| x/47 87.2% | - | 10s | 8 minutes |
-| testcase4.txt | 2025-08-05/x.csv| x/47 95.7% | testcase4_automation_bias_accurate_low_freq_10_90.json | 10s | 8 minutes |
-| testcase4.txt | 2025-08-05/x.csv| x/47 74.5% | testcase4_automation_bias_accurate_high_freq_10_90.json | 10s | 8 minutes |
+| testcase4.txt | 2025-08-05/18_250805_010005.csv.csv| 47/47 100% | - | 10s | 8 minutes |
+| testcase4.txt | 2025-08-05/19_250805_011133.csv.csv| 42/47 89.4% | testcase4_automation_bias_accurate_low_freq_10_90.json | 10s | 8 minutes |
+| testcase4.txt | 2025-08-05/x.csv| 42/47 89.4%  | testcase4_automation_bias_accurate_high_freq_10_90.json | 10s | 8 minutes |
 |---------------|--------------|------------------|-------------------|---------------------|---------------------|
