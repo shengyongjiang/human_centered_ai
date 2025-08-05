@@ -9,7 +9,9 @@ import json
 from datetime import datetime
 
 # FILE_NAME = "testcase1_automation_bias_accurate_20_80.json"
-FILE_NAME = "testcase2_automation_bias_accurate_10_90.json"
+# FILE_NAME = "testcase1_automation_bias_accurate_low_freq_20_80.json"
+# FILE_NAME = "testcase2_automation_bias_accurate_high_freq_10_90.json"
+FILE_NAME = "testcase2_automation_bias_accurate_low_freq_10_90.json"
 
 def play_sound(key):
     """Play sound alert using text-to-speech"""
